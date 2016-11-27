@@ -38,19 +38,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="s5.jpg" alt="samgung" width="200" height="300">
+        <img src="resource/s1.jpg" alt="samgung" style="width:200px; height:300px">
       </div>
 
       <div class="item">
-        <img src="s2.jpg" alt="samsung" width="200" height="300">
+        <img src="resource/s2.jpg" alt="samsung" style="width:200px; height:300px">
       </div>
     
       <div class="item">
-        <img src="s3.jpg" alt="samsung" width="200" height="300">
+        <img src="resource/s3.jpg" alt="samsung" style="width:200px; height:300px">
       </div>
 
       <div class="item">
-        <img src="s4.jpg" alt="samsung" width="200" height="300">
+        <img src="resource/s4.jpg" alt="samsung" style="width:200px; height:300px">
       </div>
     </div>
 
