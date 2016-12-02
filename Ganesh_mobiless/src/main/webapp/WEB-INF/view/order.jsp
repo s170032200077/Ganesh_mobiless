@@ -19,63 +19,40 @@
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
-<body bgcolor="little gray">
-	<form name="form1" action="login.jsp" method="post" id="s1">
+<body>
+<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Ganesh online mobiles</h1>
+			<p>The mobile world</p>
+		</div>
+	</div>
 
-		<h4>
-			<font color="red"> You can login by entering the username and
-				password,if you already registered in our web-site <br> else
-				please register our self before purchasing
-			</font><br>
-		</h4>
-		<h1>
-			<font color="blue">LOGIN SECTION</font>
-		</h1>
-		<h4>
-			<b>USER_NAME:
-				<center>
-					<input type="textbox" class="form-control" name="cname"
-						value="plz enter your username" /><br>
-				</center>
-				<br> <b>PASSWORD:
-					<center>
-						<input type="password" class="form-action" name="cpassword" />
-					</center>
-					<br> <middle> <input class="btn btn-danger"
-						type="submit" name="s1" value="SUBMIT" /></middle>
-		</h4>
-
-		<form name="form2" action="register.jsp" method="post" id="s2">
-
-
-			<h1>
-				<font color="blue">REGISTRATION SECTION</font>
-			</h1>
-			<h4>
-				<b>USER_NAME:
-					<center>
-						<input type="textbox" class="form-control" name="cname"
-							value="plz enter  username" />
-					</center>
-					<br> <b>PASSWORD:
-						<center>
-							<input type="password" class="form-control" name="cpassword" />
-						</center>
-						<br> <b>CONFORMED PASSWORD:
-							<center>
-								<input type="recpassword" class="form-control" name="cpassword" />
-							</center>
-							<br> <b>EMAIL_ID:
-								<center>
-									<input type="textbox" class="form-control" name="cemail_id"
-										value="plz enter your email_id" /><br>
-								</center> <br> <b>PHONE_NUMBER:
-									<center>
-										<input type="textbox" class="form-control" name="cphone_no"
-											value="plz enter your phone_number" /><br>
-									</center>
-									<br> <middle> <input class="btn btn-danger"
-										type="submit" class="form-control" name="s2" value="SUBMIT" /></middle>
-			</h4>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Logo</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="home.jsp">Home</a></li>
+					<li><a href="products.jsp">Products</a></li>
+					<li><a href="register.jsp">Register</a></li>
+					<li><a href="aboutus.jsp">About us</a></li>
+					<li><a href="contactus.jsp">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="login.jsp"><span
+							class="glyphicon glyphicon-user"></span> Your Account</a></li>
+					<li><a href="order.jsp"><span
+							class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </body>
 </html>

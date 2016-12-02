@@ -32,9 +32,42 @@
 </style>
 </head>
 <body>
+<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Ganesh online mobiles</h1>
+			<p>The mobile world</p>
+		</div>
+	</div>
 
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Logo</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="home.jsp">Home</a></li>
+					<li><a href="products.jsp">Products</a></li>
+					<li><a href="register.jsp">Register</a></li>
+					<li><a href="aboutus.jsp">About us</a></li>
+					<li><a href="contactus.jsp">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="login.jsp"><span
+							class="glyphicon glyphicon-user"></span> Your Account</a></li>
+					<li><a href="order.jsp"><span
+							class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<div class="container">
-		<h2>Modal Login Example</h2>
+		
 		<!-- Trigger the modal with a button -->
 		<button type="button" class="btn btn-default btn-lg" id="myBtn">Login</button>
 
@@ -64,10 +97,7 @@
 									type="text" class="form-control" id="psw"
 									placeholder="Enter password">
 							</div>
-							<div class="checkbox">
-								<label><input type="checkbox" value="" checked>Remember
-									me</label>
-							</div>
+							
 							<button type="submit" class="btn btn-success btn-block">
 								<span class="glyphicon glyphicon-off"></span> Login
 							</button>
@@ -79,7 +109,7 @@
 							<span class="glyphicon glyphicon-remove"></span> Cancel
 						</button>
 						<p>
-							Not a member? <a href="#">Sign Up</a>
+							Not a member? <a href="register.jsp">Sign Up</a>
 						</p>
 						<p>
 							Forgot <a href="#">Password?</a>

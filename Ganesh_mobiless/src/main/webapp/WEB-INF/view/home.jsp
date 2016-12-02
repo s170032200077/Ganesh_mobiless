@@ -137,7 +137,7 @@ footer {
 						<img src="resource/logosamsung.jpg" class="img-responsive"
 							style="width: 100%" alt="Image">
 					</div>
-					<div class="panel-footer">Buy a mobile and get a gift card</div>
+					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -148,7 +148,7 @@ footer {
 						<img src="resource/logoapple.png" class="img-responsive"
 							style="width: 100%" alt="Image">
 					</div>
-					<div class="panel-footer">Buy a mobile and get a gift card</div>
+					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -158,7 +158,7 @@ footer {
 						<img src="resource/logolava.jpg" class="img-responsive"
 							style="width: 100%" alt="Image">
 					</div>
-					<div class="panel-footer">Buy a mobile and get a gift card</div>
+					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
 			</div>
 		</div>
@@ -174,7 +174,7 @@ footer {
 						<img src="resource/logolenovo.jpg" class="img-responsive"
 							style="width: 100%" alt="Image">
 					</div>
-					<div class="panel-footer">Buy a mobile and get a gift card</div>
+					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -184,7 +184,7 @@ footer {
 						<img src="resource/logoblackberry.jpg" class="img-responsive"
 							style="width: 100%" alt="Image">
 					</div>
-					<div class="panel-footer">Buy a mobile and get a gift card</div>
+					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -194,7 +194,7 @@ footer {
 						<img src="resource/logovivo.jpg" class="img-responsive"
 							style="width: 100%" alt="Image">
 					</div>
-					<div class="panel-footer">Buy a mobile and get a gift card</div>
+					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
 			</div>
 		</div>
@@ -210,7 +210,7 @@ footer {
 			<button type="button" class="btn btn-danger">Sign Up</button>
 		</form>
 	</footer>
-
-
+<div class="container">
+<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p> </div>
 </body>
 </html>
