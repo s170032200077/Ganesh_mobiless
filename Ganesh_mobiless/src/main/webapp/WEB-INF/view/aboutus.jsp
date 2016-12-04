@@ -39,11 +39,12 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="home.jsp">Home</a></li>
-					<li><a href="products.jsp">Products</a></li>
-					<li><a href="register.jsp">Register</a></li>
-					<li><a href="aboutus.jsp">About us</a></li>
-					<li><a href="contactus.jsp">Contact</a></li>
+					<li class="active"><a href="home">Home</a></li>
+					<li><a href="products">Products</a></li>
+					<li><a href="register">Register</a></li>
+					<li><a href="login">login</a></li>
+					<li><a href="aboutus">About us</a></li>
+					<li><a href="contactus">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="login.jsp"><span

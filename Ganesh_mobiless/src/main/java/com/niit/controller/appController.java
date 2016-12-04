@@ -12,5 +12,22 @@ public class appController {
 	{
 		return "home";
 	}
+	@RequestMapping("login")
+	
+	public String showlogin()
+	{
+		return "login";
+	}
+@RequestMapping("products")
+	
+	public String showproducts()
+	{
+		return "products";
+	}
+@RequestMapping("register")
 
+public String showregister()
+{
+	return "register";
+}
 }
