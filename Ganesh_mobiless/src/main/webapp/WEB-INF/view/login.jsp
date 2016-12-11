@@ -12,12 +12,12 @@
 <title>JSP Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	href="resource\bootstrap-3.3.7-dist\css\bootstrap.min.css">
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	src="resource\bootstrap-3.3.7-dist\js\jquery.min.js"></script>
 <script
-	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	src="resource\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+<script src="resource\angular-1.6.0\angular.min.js"	></script>
 <style>
 .modal-header, h4, .close {
 	background-color: #5cb85c;
@@ -52,8 +52,8 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="home">Home</a></li>
-					<li><a href="register">Register</a></li>
 					<li><a href="products">Products</a></li>
+					<li><a href="register">Register</a></li>					
 					<li><a href="login">login</a></li>
 					<li><a href="aboutus">About us</a></li>
 					<li><a href="contactus">Contact</a></li>

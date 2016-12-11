@@ -12,11 +12,12 @@
 <title>About_us</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	href="resource\bootstrap-3.3.7-dist\css\bootstrap.min.css">
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	src="resource\bootstrap-3.3.7-dist\js\jquery.min.js"></script>
 <script
-	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	src="resource\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+<script src="resource\angular-1.6.0\angular.min.js"	></script>
 
 </head>
 <body>
@@ -59,8 +60,8 @@
 		we have started this online mobile shopping to make easy and
 		comfortable to buy mobiles and tabs.<br> We are proud to say that
 		<br>
-		<ol>we have less priced mobiles. Lots and lots of offers
-			discounts with gifts
+		<ol> <li>we have less priced mobiles. Lots and lots of offers
+			discounts with gifts</li>
 		</ol>
 	</h1>
 </body>

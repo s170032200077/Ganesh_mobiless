@@ -12,11 +12,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	href="resource\bootstrap-3.3.7-dist\css\bootstrap.min.css">
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	src="resource\bootstrap-3.3.7-dist\js\jquery.min.js"></script>
 <script
-	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	src="resource\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+<script src="resource\angular-1.6.0\angular.min.js"	></script>
 <style>
 /* Remove the navbar's default rounded borders and increase the bottom margin */
 .navbar {
@@ -127,16 +128,16 @@ footer {
 			</a>
 		</div>
 	</div>
-
+<br>
 	<br>
 	<div class="container">
-		<div class="row">
+	<div class="row">
 			<div class="col-sm-4">
 				<div class="panel panel-primary">
 					<div class="panel-heading">SAMSUNG</div>
 					<div class="panel-body">
-						<img src="resource/logosamsung.jpg" class="img-responsive"
-							style="width: 100%" alt="Image">
+					<center>	<img src="resource/logosamsung.jpg" class="img-responsive"
+							style="width: 300px;height: 300px" alt="Image"> </center>
 					</div>
 					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
@@ -146,8 +147,8 @@ footer {
 				<div class="panel panel-primary">
 					<div class="panel-heading">APPLE</div>
 					<div class="panel-body">
-						<img src="resource/logoapple.png" class="img-responsive"
-							style="width: 100%" alt="Image">
+				<center>		<img src="resource/logoapple.png" class="img-responsive"
+							style="width: 300px;height: 300px" alt="Image">
 					</div>
 					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
@@ -156,8 +157,8 @@ footer {
 				<div class="panel panel-success">
 					<div class="panel-heading">LAVA</div>
 					<div class="panel-body">
-						<img src="resource/logolava.jpg" class="img-responsive"
-							style="width: 100%" alt="Image">
+					<center>	<img src="resource/logolava.jpg" class="img-responsive"
+							style="width: 300px;height: 300px" alt="Image"> </center>
 					</div>
 					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
@@ -172,8 +173,8 @@ footer {
 				<div class="panel panel-primary">
 					<div class="panel-heading">LENOVO</div>
 					<div class="panel-body">
-						<img src="resource/logolenovo.jpg" class="img-responsive"
-							style="width: 100%" alt="Image">
+					<center>	<img src="resource/logolenovo.jpg" class="img-responsive"
+							style="width: 300px;height: 300px" alt="Image"></center>
 					</div>
 					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
@@ -182,8 +183,8 @@ footer {
 				<div class="panel panel-primary">
 					<div class="panel-heading">BLACKBERRY</div>
 					<div class="panel-body">
-						<img src="resource/logoblackberry.jpg" class="img-responsive"
-							style="width: 100%" alt="Image">
+				<center>	<img src="resource/blackberrylogo.png" class="img-responsive"
+							style="width: 300px;height: 300px" alt="Image"></center>
 					</div>
 					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>
@@ -192,8 +193,8 @@ footer {
 				<div class="panel panel-primary">
 					<div class="panel-heading">VIVO</div>
 					<div class="panel-body">
-						<img src="resource/logovivo.jpg" class="img-responsive"
-							style="width: 100%" alt="Image">
+				<center>		<img src="resource/logovivo.jpg" class="img-responsive"
+							style="width: 300px;height: 300px" alt="Image"> </center>
 					</div>
 					<div class="panel-footer"><a href="products.jsp">Buy a mobile and get a gift card</a></div>
 				</div>

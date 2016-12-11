@@ -14,20 +14,34 @@ public class appController {
 	}
 	@RequestMapping("login")
 	
-	public String showlogin()
+	public String showLogin()
 	{
 		return "login";
 	}
 @RequestMapping("products")
 	
-	public String showproducts()
+	public String showProducts()
 	{
 		return "products";
 	}
 @RequestMapping("register")
 
-public String showregister()
+public String showRegister()
 {
 	return "register";
 }
+@RequestMapping("contactus")
+
+public String showContactus()
+{
+	return "contactus";
+}
+@RequestMapping("aboutus")
+
+public String showAboutus()
+{
+	return "aboutus";
+}
+
+
 }
