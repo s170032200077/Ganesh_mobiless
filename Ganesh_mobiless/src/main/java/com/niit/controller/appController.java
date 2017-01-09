@@ -43,5 +43,10 @@ public String showAboutus()
 	return "aboutus";
 }
 
+@RequestMapping("home")
 
+public String showHome1()
+{
+	return "home";
+}
 }

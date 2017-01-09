@@ -67,9 +67,9 @@ footer {
 					<li><a href="contactus">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="login.jsp"><span
+					<li><a href="login"><span
 							class="glyphicon glyphicon-user"></span> Your Account</a></li>
-					<li><a href="order.jsp"><span
+					<li><a href="order"><span
 							class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
 				</ul>
 			</div>
