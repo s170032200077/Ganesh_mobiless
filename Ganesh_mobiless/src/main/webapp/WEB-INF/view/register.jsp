@@ -3,8 +3,8 @@
     Created on : 24 Sep, 2016, 10:34:15 PM
     Author     : Lakshmi
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,26 +57,30 @@
 	</nav>
 	<div class="container">
   <h2>Register Form</h2>
-  <form>
+  <form:form method="POST">
     <div class="form-group">
       <label for="email">Name:</label>
-      <input type="email" class="form-control" id="name" placeholder="Enter your name">
+      <form:input type="text" path="name" class="form-control" id="name" placeholder="Enter your name"/>
     </div>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
+      <form:input type="email" path="email"  class="form-control" id="email" placeholder="Enter email"/>
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+      <form:input type="password" path="pwd" class="form-control" id="pwd" placeholder="Enter password"/>
     </div>
     <div class="form-group">
       <label for="pwd">Conformed Password:</label>
-      <input type="password" class="form-control" id="cpwd" placeholder="Re-enter password">
+      <form:input type="password" path="cnfpwd" class="form-control" id="cnfpwd" placeholder="Re-enter password"/>
+    </div>
+     <div class="form-group">
+      <label for="pwd">Conformed Password:</label>
+      <form:input type="number" path="phone_no" class="form-control" id="phone_no" placeholder="Enter your number"/>
     </div>
     
     <button type="submit" class="btn btn-default">Submit</button>
-  </form>
+  </form:form>
 </div>
 	
 </body>
