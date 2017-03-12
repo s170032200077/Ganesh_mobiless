@@ -2,11 +2,12 @@ package com.niit.dao;
 
 import java.util.List;
 
-import org.hibernate.Session;
+
+
 import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import com.niit.model.User;
 
@@ -15,23 +16,16 @@ public class UserDaoImpl implements UserDao {
 	@Autowired
 	SessionFactory sessionFactory;
 
-	@Transactional
-	public int addUser(User user) {
-		Session session = sessionFactory.openSession();
-		Transaction tx = (Transaction)session.beginTransaction();
-		session.saveOrUpdate(user);
-		tx.commit();
-		session.close();
-		return 0;
+	
+	public void addUser(User user) {
+		sessionFactory.getCurrentSession().save(user);
+		
 		
 		
 	}
 	public List<User> DisplayUser() {
 		
-		Session session = sessionFactory.openSession();
-		@SuppressWarnings("unchecked")
-		List<User> userList = session.createQuery("from Customer").list();
-		return userList;
-		 
-}
+		return sessionFactory.getCurrentSession().createQuery("from User").list();
+	}
+		
 }

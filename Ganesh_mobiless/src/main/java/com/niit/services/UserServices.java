@@ -6,7 +6,7 @@ import java.util.List;
 import com.niit.model.User;
 
 public interface UserServices {
-	public  int addUser();
+	public  void addUser();
 	public List<User> DisplayUser();
 	
 

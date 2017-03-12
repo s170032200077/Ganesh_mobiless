@@ -5,10 +5,10 @@ import com.niit.model.Product;
 
 public interface ProductDao
 {
-public int addProduct(Product product);
-public Product getProductById(int id);
-public int deleteProduct(int id);
-public int updateProduct(Product product);
+public void  addProduct(Product product);
+public Product getProduct(int id);
+public void  deleteProduct(int id);
+public void updateProduct(Product product);
 public List<Product> DisplayProduct();
 }
 
