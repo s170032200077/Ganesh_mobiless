@@ -57,7 +57,7 @@
 	</nav>
 	<div class="container">
   <h2>Register Form</h2>
-  <form:form method="POST">
+  <form:form method="POST" action="registeruser" >
     <div class="form-group">
       <label for="email">Name:</label>
       <form:input type="text" path="name" class="form-control" id="name" placeholder="Enter your name"/>
