@@ -1,13 +1,14 @@
 package com.niit.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 
 @Entity
+@Table(name="user")
 
 public class User {
 	@Id
@@ -21,10 +22,6 @@ public class User {
 	private int phoneno;	
 	private String addr;
 	
-	
-
-	
-
 	public int getUserId()
 	{
 		return userId;
@@ -32,7 +29,7 @@ public class User {
 
 	public void setUserId(int userId) 
 	{
-		userId = userId;
+		this.userId = userId;
 	}
 
 	public String getName()
@@ -80,7 +77,7 @@ public class User {
 		return phoneno;
 	}
 
-	public void setPhone_no(int phone_no) 
+	public void setPhone_no(int phoneno) 
 	{
 		this.phoneno = phoneno;
 	}

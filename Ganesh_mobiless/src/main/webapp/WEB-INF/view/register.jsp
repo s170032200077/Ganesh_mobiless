@@ -57,7 +57,7 @@
 	</nav>
 	<div class="container">
   <h2>Register Form</h2>
-  <form:form method="POST" action="registeruser" >
+  <form:form method="POST">
     <div class="form-group">
       <label for="email">Name:</label>
       <form:input type="text" path="name" class="form-control" id="name" placeholder="Enter your name"/>
@@ -79,7 +79,7 @@
       <form:input type="number" path="phone_no" class="form-control" id="phone_no" placeholder="Enter your number"/>
     </div>
     
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" value="adduser"  class="btn btn-default">Submit</button>
   </form:form>
 </div>
 	
